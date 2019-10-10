@@ -1,0 +1,49 @@
+{
+  "name": "julibo/php-mantis-demo",
+  "type": "project",
+  "keywords": [
+    "php",
+    "swoole",
+    "hyperf",
+    "microservice"
+  ],
+  "description": "基于hyperf的实战工程",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.2",
+    "ext-swoole": ">=4.4",
+    "hyperf/framework": "~1.1.0"
+  },
+  "require-dev": {
+    "swoft/swoole-ide-helper": "^4.2",
+    "phpmd/phpmd": "^2.6",
+    "friendsofphp/php-cs-fixer": "^2.14",
+    "mockery/mockery": "^1.0",
+    "doctrine/common": "^2.9",
+    "phpstan/phpstan": "^0.11.2"
+  },
+  "suggest": {
+    "ext-openssl": "Required to use HTTPS.",
+    "ext-json": "Required to use JSON.",
+    "ext-pdo": "Required to use MySQL Client.",
+    "ext-pdo_mysql": "Required to use MySQL Client.",
+    "ext-redis": "Required to use Redis Client."
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "files": [
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+  },
+  "scripts": {
+  }
+}
